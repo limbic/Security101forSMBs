@@ -34,10 +34,10 @@ TBA
 - [ ] **Create an inventory of all asset**- Start simple (Excel, Google Sheets) and evolve to managed solutions
 	- Assets to Include: 
 		- **Devices**: Laptops, IoT, servers, routers, mobile devices
-		- Software & Services: Applications, Open-Source Components, Frameworks (e.g., .NET)
-		- Accounts (incl. Cloud): Subscriptions, users, groups, service principals
-		- Digital asserts: IPs, Domains, certificates, open ports
-		- Data Stores: Cloud storage, databases, backup locations
+		- **Software & Services**: Applications, Open-Source Components, Frameworks (e.g., .NET)
+		- **Accounts** (incl. Cloud): Subscriptions, users, groups, service principals
+		- **Digital asserts**: IPs, Domains, certificates, open ports
+		- **Data Stores**: Cloud storage, databases, backup locations
 
 ### Clean-up and simplify 
 
@@ -46,12 +46,13 @@ Reduce Attack Surface
 - [ ] Remove & safely dispose of unused/unmanaged/unauthorized **hardware**
   - Collect and safely dispose of or recycle old devices, hard drives, laptops
 	- Enforce via Intune or other Conditional Access
-- [ ] Remove and restrict **unauthorized software**. Restrict – by policy or endpoint management – what software , apps and browser extensions can be run on your devices, computers and servers
+- [ ] Remove and restrict **unauthorized software**. Restrict what software , apps and browser extensions can be run on your devices, computers and servers
+  - Enforce via policies or endpoint management 
 - [ ] Remove **unauthorized users and accounts**
 - [ ] Remove and restrict **OAuth app permissions** (Google, M365)
-- [ ] Operationalize inspections and clean-ups
+- [ ] **Operationalize inspections and regular clean-ups**
 	- Have a reminder to regularly update and clean-up the inventory
-- [ ] Carefully vet vendors, services and suppliers to reduce risk of supply chain attacks 
+- [ ] **Vet vendors, services and suppliers** to reduce risk of supply chain attacks 
 
 ### Update and Harden 
 
