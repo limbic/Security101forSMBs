@@ -1,6 +1,7 @@
 # Security 101 for SMBs
-
+![Alt text](security101titleslide.png?raw=true "Title slide")
 - [Introduction](#introduction)
+	- [Presentation deck (PDF)](#deck)
 - [Go Do Checklist](#go-do-checklist)
     + [Create an Inventory of all your IT assets](#create-an-inventory-of-all-your-it-assets)
     + [Clean-up and simplify (Reduce Attack Surface)](#clean-up-and-simplify)
@@ -13,13 +14,17 @@
     + [Backup and Recovery](#backup-and-recovery)
 
 
-![Alt text](security101titleslide.png?raw=true "Title slide")
+
 
 ## Introduction 
 
 This is a companion resource for the "Microsoft Presents - Security 101 for SMBs" workshop dlivered at Directions EMEA 2022 in Hamburg, Germany. 
 
 This is still a work in progress. Additional sections will be added soon ("SDL: Security for Software Creators", "Advanced Security Topics", "Personal Security" plus additional sources and resources.)
+
+### Deck 
+
+TBA
 
 
 ## Go Do Checklist 
