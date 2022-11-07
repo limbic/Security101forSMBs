@@ -1,6 +1,12 @@
 # Security 101 for SMBs
 
 
+![Alt text](security101titleslide.png?raw=true "Title slide")
+
+## Introduction 
+
+This is a companion resource for the "Microsoft Presents - Security 101 for SMBs" workshop dlivered at Directions EMEA 2022 in Hamburg, Germany. 
+
 ## Go Do Checklist 
 
 
