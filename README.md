@@ -1,11 +1,26 @@
 # Security 101 for SMBs
 
+- [Introduction](#introduction)
+- [Go Do Checklist](#go-do-checklist)
+    + [Create an Inventory of all your IT assets](#create-an-inventory-of-all-your-it-assets)
+    + [Clean-up and simplify (Reduce Attack Surface)](#clean-up-and-simplify)
+    + [Update and Harden (Vulnerability management)](#update-and-harden)
+    + [Identity and Access Management](#identity-and-access-management)
+    + [Encrypt your data](#encrypt-your-data)
+    + [Anti-malware](#anti-malware)
+    + [Email and Reputation](#email-and-reputation)
+    + [Detection](#detection)
+    + [Backup and Recovery](#backup-and-recovery)
+
 
 ![Alt text](security101titleslide.png?raw=true "Title slide")
 
 ## Introduction 
 
 This is a companion resource for the "Microsoft Presents - Security 101 for SMBs" workshop dlivered at Directions EMEA 2022 in Hamburg, Germany. 
+
+This is still a work in progress. Additional sections will be added soon ("SDL: Security for Software Creators", "Advanced Security Topics", "Personal Security" plus additional sources and resources.)
+
 
 ## Go Do Checklist 
 
@@ -19,7 +34,10 @@ This is a companion resource for the "Microsoft Presents - Security 101 for SMBs
 		- Digital asserts: IPs, Domains, certificates, open ports
 		- Data Stores: Cloud storage, databases, backup locations
 
-### Clean-up and simplify (Reduce Attack Surface)
+### Clean-up and simplify 
+
+Reduce Attack Surface
+
 - [ ] Remove & safely dispose of unused/unmanaged/unauthorized **hardware**
   - Collect and safely dispose of or recycle old devices, hard drives, laptops
 	- Enforce via Intune or other Conditional Access
@@ -30,7 +48,10 @@ This is a companion resource for the "Microsoft Presents - Security 101 for SMBs
 	- Have a reminder to regularly update and clean-up the inventory
 - [ ] Carefully vet vendors, services and suppliers to reduce risk of supply chain attacks 
 
-### Update and Harden (Vulnerability management)
+### Update and Harden 
+
+Practice vulnerability management. 
+
 - [ ] Configure auto-update where possible 
 	- On Windows use [Microsoft’s winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/)) with task scheduler
 		- [Ninite Updater](https://ninite.com/updater/)) is GUI alternative
