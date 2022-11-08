@@ -1,5 +1,5 @@
 # Security 101 for SMBs
-![Alt text](security101titleslide.png?raw=true "Title slide")
+![Alt text](media/security101titleslide.png?raw=true "Title slide")
 - [Introduction](#introduction)
 	- [Presentation deck (PDF) and Mindmap](#deck-and-mindmap)
 - [Go Do Checklist](#go-do-checklist)
