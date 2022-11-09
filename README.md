@@ -60,7 +60,7 @@ Reduce Attack Surface
 Practice vulnerability management. 
 
 - [ ] Configure auto-update where possible 
-	- On Windows use [Microsoft’s winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/)) with task scheduler
+	- On Windows use [Microsoft’s winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/) with task scheduler
 		- [Ninite Updater](https://ninite.com/updater/)) is GUI alternative
 	- On Mac use [MacUpdater](https://www.corecode.io/macupdater/)) (app), [Homebrew](https://brew.sh/)) (package manager) or similar 
 	- On Linux search web for “unattended updates linux"
