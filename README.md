@@ -106,7 +106,7 @@ Actively practice secrets management
 	- Authenticator Apps (e.g. Microsoft Authenticator, Google Authenticator, Authy)
 	- Phone call / SMS (**avoid** -  vulnerable to [SIM Swapping](https://en.wikipedia.org/wiki/SIM_swap_scam)))
 - [ ] Set up breach monitoring 
-	- [https://www.haveibeenpwnd.com](https://www.haveibeenpownd.com/)
+	- [https://www.haveibeenpwnd.com](https://www.haveibeenpwnd.com/)
 	- Password Managers and several browsers (Edge, Chrome, Firefox) offer this too
 
 ### Encrypt your data
