@@ -24,8 +24,8 @@ This is still a work in progress. Additional sections will be added soon ("SDL: 
 
 ### Deck and Mindmap
 
-- Deck:
-- [MindMap](/media/Security101forSMBs.html)
+- [Deck](/media/Security101forSMBs.pdf)
+- [MindMap](https://1drv.ms/u/s!Ai6Fn5yIGx7R4NUaMySivjSTmNVOmA?e=boZJ2m) (Use download button to view file)
 
 
 ## Go Do Checklist 
