@@ -16,7 +16,7 @@
 
 ## Introduction 
 
-This is a companion resource for the "Microsoft Presents - Security 101 for SMBs" workshop dlivered at Directions EMEA 2022 in Hamburg, Germany. 
+This is a companion resource for the "Microsoft Presents - Security 101 for SMBs" workshop delivered at Directions EMEA 2022 in Hamburg, Germany. 
 
 This is still a work in progress. Additional sections will be added soon ("SDL: Security for Software Creators", "Advanced Security Topics", "Personal Security" plus additional sources and resources.)
 
