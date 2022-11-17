@@ -14,8 +14,6 @@
     + [Backup and Recovery](#backup-and-recovery)
 
 
-
-
 ## Introduction 
 
 This is a companion resource for the "Microsoft Presents - Security 101 for SMBs" workshop dlivered at Directions EMEA 2022 in Hamburg, Germany. 
@@ -131,6 +129,8 @@ Prevent malicious code running on your systems
 	- Defender for Endpoint has you covered
 	- If infected, delete (VM) or wipe (device) 
 - [ ] Enable and use [SmartScreen](https://support.microsoft.com/en-us/microsoft-edge/how-can-smartscreen-help-protect-me-in-microsoft-edge-1c9a874a-6826-be5e-45b1-67fa445a74c8) (or similar)
+- [ ] Ensure your domain registar is secure  (i.e. offers Multi-factor authentication, is reputable and trustworthy)
+        - Consider using a large provider like Cloudflare or Google Domains or Office 365 domains
 - [ ] Use Secure DNS
 	- 1.1.1.1 for Families (CloudFlare)
 		- 1.1.1.2 (No Malware)
