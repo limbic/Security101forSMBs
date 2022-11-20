@@ -30,7 +30,7 @@ This is still a work in progress. Additional sections will be added soon ("SDL: 
 
 
 ### Create an Inventory of all your IT assets 
-Know what you have so you can secure it.
+Know what you have so you can secure it
 
 - [ ] **Create an inventory of all asset**- Start simple (Excel, Google Sheets) and evolve to managed solutions
 	- Assets to Include: 
@@ -41,7 +41,7 @@ Know what you have so you can secure it.
 		- **Data Stores**: Cloud storage, databases, backup locations
 
 ### Clean-up and simplify 
-Reduce Attack Surface.
+Reduce Attack Surface
 
 - [ ] Remove & safely dispose of unused/unmanaged/unauthorized **hardware**
   - Collect and safely dispose of or recycle old devices, hard drives, laptops
@@ -107,28 +107,28 @@ Actively practice secrets management
 	- Password Managers and several browsers (Edge, Chrome, Firefox) offer this too
 
 ### Encrypt your data
+Protect your data on the wore and at rest
 
 - [ ] Ensure everything is encrypted In-transit
 	- Only use services using TLS 1.2+ or better
-	- Use [Let's Encrypt](https://letsencrypt.org/)) to enable HTTPs for your domain 
+	- Use [Let's Encrypt](https://letsencrypt.org/) to enable HTTPs for your domain 
 	- Use a good VPN on any untrusted network (public Wi-Fi)
-		- Create your own with OpenVPN and free ter cloud accounts
+		- Create your own with OpenVPN and free tier cloud accounts
 		- Otherwise pay for a decent provider (e.g. [ProtonVPN](https://protonvpn.com/)), [Freedome](https://www.f-secure.com/en/home/products/freedome), [Private Internet Access](https://www.privateinternetaccess.com/)))
-- [ ] Ensure everything is encrypted At rest
+- [ ] Ensure _everything_ is encrypted At rest
 	- Bitlocker/Device encryption (Windows, iOS, iPadOS, Android)
 	- Filevault (OSX)
-	-  Full disk encryption (_FDE_) (Linux)
+	- Full disk encryption (_FDE_) (Linux)
 - [ ] Explore Bring Your Own Key (BYOK) for services that support it
 
 ### Anti-malware
-
 Prevent malicious code running on your systems
 
 - [ ] Ensure every device is running Anti-malware
 	- Defender for Endpoint has you covered
 	- If infected, delete (VM) or wipe (device) 
 - [ ] Enable and use [SmartScreen](https://support.microsoft.com/en-us/microsoft-edge/how-can-smartscreen-help-protect-me-in-microsoft-edge-1c9a874a-6826-be5e-45b1-67fa445a74c8) (or similar)
-- [ ] Ensure your domain registar is secure  (i.e. offers Multi-factor authentication, is reputable and trustworthy)
+- [ ] Ensure your domain registrar is secure  (i.e. offers Multi-factor authentication, is reputable and trustworthy)
         - Consider using a large provider like Cloudflare or Google Domains or Office 365 domains
 - [ ] Use Secure DNS
 	- 1.1.1.1 for Families (CloudFlare)
@@ -143,7 +143,6 @@ Prevent malicious code running on your systems
 	- New generation of plug-and-play threat detection devices (e.g., [GuardDog.ai](https://guarddog.ai/))
 
 ### Email and Reputation
-
 Prevent reputation damage from slander and being spoofed
 
 - [ ] Warn staff about Chat based Phishing and MFA spamming
@@ -155,8 +154,7 @@ Prevent reputation damage from slander and being spoofed
 - [ ] Set up Domain-based Message Authentication, Reporting, and Conformance ([DMARC](https://dmarc.org/)) , Sender Policy Framework (SPF) and DomainKeys Identified Mail (DKIM) to authenticate mail senders
 
 ### Detection
-
-Use an attacker’s lens to examine your SMB
+Use an "Attacker’s lens" to see your SMB the way attackers do
 
 - [ ] Investigate Microsoft's phenomenal security portfolio 
 	 - [How Microsoft Security partners are helping customers do more with less - Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2022/07/19/how-microsoft-security-partners-are-helping-customers-do-more-with-less/)
