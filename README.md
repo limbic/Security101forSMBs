@@ -30,6 +30,8 @@ This is still a work in progress. Additional sections will be added soon ("SDL: 
 
 
 ### Create an Inventory of all your IT assets 
+Know what you have so you can secure it.
+
 - [ ] **Create an inventory of all asset**- Start simple (Excel, Google Sheets) and evolve to managed solutions
 	- Assets to Include: 
 		- **Devices**: Laptops, IoT, servers, routers, mobile devices
@@ -39,8 +41,7 @@ This is still a work in progress. Additional sections will be added soon ("SDL: 
 		- **Data Stores**: Cloud storage, databases, backup locations
 
 ### Clean-up and simplify 
-
-Reduce Attack Surface
+Reduce Attack Surface.
 
 - [ ] Remove & safely dispose of unused/unmanaged/unauthorized **hardware**
   - Collect and safely dispose of or recycle old devices, hard drives, laptops
@@ -54,8 +55,7 @@ Reduce Attack Surface
 - [ ] **Vet vendors, services and suppliers** to reduce risk of supply chain attacks 
 
 ### Update and Harden 
-
-Practice vulnerability management. 
+Reduce risk by practicing effective vulnerability management. 
 
 - [ ] Configure auto-update where possible 
 	- On Windows use [Microsoft’s winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/) with task scheduler
@@ -84,7 +84,6 @@ Practice vulnerability management.
 	- Set up keyword monitoring for vulnerability reports (e.g. “Netgear hacked”, “Netgear vulnerability”)
 
 ### Identity and Access Management
-
 Actively practice secrets management 
 
 - [ ] Use an Identity Provider  (Microsoft Entera, Google, Apple)
