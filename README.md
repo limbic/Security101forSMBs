@@ -130,6 +130,7 @@ Prevent malicious code running on your systems
 - [ ] Enable and use [SmartScreen](https://support.microsoft.com/en-us/microsoft-edge/how-can-smartscreen-help-protect-me-in-microsoft-edge-1c9a874a-6826-be5e-45b1-67fa445a74c8) (or similar)
 - [ ] Ensure your domain registrar is secure  (i.e. offers Multi-factor authentication, is reputable and trustworthy)
         - Consider using a large provider like Cloudflare or Google Domains or Office 365 domains
+- [ ] Ensure you do not have any dangling domains (unused subdomains or domains pointing to IP addresses you no longer control)
 - [ ] Use Secure DNS
 	- 1.1.1.1 for Families (CloudFlare)
 		- 1.1.1.2 (No Malware)
